@@ -1,0 +1,252 @@
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+header h2 {
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin-right: 1.5rem;
+    align-items: center;
+    font-weight: normal;
+}
+
+header ul li {
+    margin-left: 1rem;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+header a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+#ACADEMY {
+    color: grey;
+}
+
+/*Learn*/
+
+.Learn {
+    display: flex;
+    background-color: lightgray;
+    min-height: 100px; /* Adjust as needed */
+    width: auto;
+}
+
+.Learn .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.7;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.Learn img {
+    display: flex;
+    margin: 2rem 1.5rem;
+    width: 60%;
+}
+
+.start-button {
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease,
+     color 0.3s ease, border-color 0.3s ease,
+      transform 0.2s ease;
+}
+
+.start-button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    transform: scale(1.05); /* Slightly increase the size of the button */
+}
+/*two-side-containers*/
+
+.two-side-containers {
+    display: flex;
+    width: auto;
+    bottom: 2rem;
+}
+
+.left-side {
+    flex: 1;
+    padding: 20px;
+    margin-right: 1.5rem;
+}
+
+.left-side img {
+    display: flex;
+    margin: 0 1.5rem;
+    width: 100%;
+}
+
+.left-side h2 {
+    margin-bottom: 1.5rem;
+    opacity: 0.7;
+}
+
+.left-side p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+#author {
+    margin-top: 1.5rem;
+    bottom: 2rem;
+}
+
+.right-side {
+    flex: 0 0 40%; /* Set width to 40% */
+    padding: 20px;
+    border-left: 1px solid lightgray;
+    margin: 0;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 35%; /* Set image width to 35% */
+    height: auto; /* Space between image and description */
+    margin: 0 1rem;
+}
+
+.description {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.description h3,
+.description p,
+.description a {
+    margin: 0; /* Remove default margin */
+    margin-bottom: 5px; /* Add space between elements */
+}
+
+.description h3 {
+    margin-bottom: 0.5rem;
+}
+
+.description p {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.description a {
+    color: rgb(91, 167, 255); /* Style the link */
+    text-decoration: none; /* Remove underline */
+    transition: text-decoration 0.3s ease;
+}
+
+.description a:hover {
+    text-decoration: underline;
+}
+
+/*start learning*/
+
+.start-learning {
+    background-color: lightgray;
+    text-align: center;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-top: 1rem;
+}
+
+.start-learning h2 {
+    opacity: 0.7;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.image-item {
+    flex: 1 1 calc(33.33% - 2rem);
+    background-color: white;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 2rem;
+    display: block;
+    text-decoration: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    transition: transform 0.3s ease;
+}
+
+.image-item:hover {
+    transform: scale(1.05);
+}
+
+.image-item:hover img {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+.content {
+    margin-top: 1rem;
+}
+
+.content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.content p {
+    font-size: 1rem;
+    color: #555;
+    opacity: 0.7;
+}
